@@ -21,6 +21,7 @@ jobs:
           set -euo pipefail
           cat bootstrap/part-* > /tmp/guanyu-lab-frozen.b64
           base64 -d /tmp/guanyu-lab-frozen.b64 > /tmp/guanyu-lab-frozen.zip
+          echo "29c5604a2247c505f986e461388058a54ea5882726347a52f933e7d188152b05  /tmp/guanyu-lab-frozen.zip" | sha256sum -c -
           mkdir -p /tmp/guanyu-lab-frozen
           unzip -q /tmp/guanyu-lab-frozen.zip -d /tmp/guanyu-lab-frozen
           src=/tmp/guanyu-lab-frozen/experiments-guanyu-lab-frozen
@@ -28,6 +29,7 @@ jobs:
           for p in "$src"/*; do
             name=$(basename "$p")
             [[ "$name" == ".git" ]] && continue
+            [[ "$name" == ".github" ]] && continue
             rm -rf "./$name"
             cp -a "$p" "./$name"
           done
