@@ -1,2 +1,3 @@
 frozen-zip-sha256=29c5604a2247c505f986e461388058a54ea5882726347a52f933e7d188152b05
-retry=2
+retry=3
+workflow-safe=true
