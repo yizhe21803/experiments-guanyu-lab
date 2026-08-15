@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<title>观屿实验室 · Jelly Switch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css?v=7.3.0" />
+</head>
+<body>
+<div class="poster-page">
+  <div class="bg-wave bg-wave-left" aria-hidden="true"></div>
+  <div class="bg-wave bg-wave-right" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand-lockup">
+      <div class="brand-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M8 31c0-12 10-22 23-22 8 0 15 4 19 10 5 1 8 5 8 10 0 7-6 12-13 12H20C13 41 8 37 8 31Z"/><path d="M16 31c5-2 9-8 16-11 2 4 6 8 12 10 2-3 4-5 8-7"/><path d="M17 35c8-2 14-1 19 2 5 2 10 2 15-1"/></svg>
+      </div>
+      <div class="brand-copy">
+        <strong>观屿实验室</strong>
+        <span>GUANYU LAB</span>
+      </div>
+    </div>
+    <nav class="hero-nav" aria-label="页面导航">
+      <a href="#board">Interactive</a><span>/</span>
+      <a href="#board">Motion</a><span>/</span>
+      <a href="#footer">Creative</a>
+    </nav>
+    <div class="exp-chip"><i></i>EXPERIMENT</div>
+  </header>
+
+  <section class="hero-head">
+    <div class="eyebrow-line"><span></span><em>MOTION SURFACE · 02</em><span></span></div>
+    <div class="title-row">
+      <h1>Jelly Switch</h1>
+      <b class="version-chip">v1.0</b>
+    </div>
+    <h2>一枚 Q 弹的果冻开关</h2>
+    <p>Realtime Soft-body Toggle</p>
+  </section>
+
+  <section class="board-shell" id="board">
+    <div class="board-frame">
+      <div class="board-top-meta"><i></i><strong>LIVE</strong><span>Interactive Experiment</span></div>
+
+      <div class="board-side-cards" aria-label="能力亮点">
+        <article class="feature-card">
+          <div class="icon-badge switch-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="6" y="13" width="28" height="14" rx="7"/><circle cx="14" cy="20" r="4"/><path d="M21 20h7"/></svg></div>
+          <strong>点按切换</strong><span>Toggle Interaction</span>
+        </article>
+        <article class="feature-card">
+          <div class="icon-badge switch-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M7 23c5-9 10-9 15 0s10 9 13 0"/><path d="M8 29h24"/></svg></div>
+          <strong>Q 弹回弹</strong><span>Elastic Response</span>
+        </article>
+        <article class="feature-card">
+          <div class="icon-badge switch-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M11 27c0-8 3-15 9-15s9 7 9 15c0 3-3 5-9 5s-9-2-9-5Z"/><path d="M15 18c1-2 3-3 5-3"/></svg></div>
+          <strong>果冻材质</strong><span>Jelly Material</span>
+        </article>
+      </div>
+
+      <div class="stage-holder">
+        <main id="stage" data-state="off">
+          <canvas id="scene" width="900" height="760"></canvas>
+          <div class="state-pill"><span></span><strong id="stateLabel">OFF</strong></div>
+          <button id="paletteToggle" type="button" aria-label="Color palette" title="Color palette" aria-expanded="true"><span></span></button>
+          <section id="palettePanel" aria-label="Jelly colors">
+            <div class="palette-title">JELLY COLOR</div>
+            <div id="swatches" class="swatches"></div>
+            <label class="custom-color">CUSTOM <input id="customColor" type="color" value="#1480ff" /></label>
+          </section>
+          <div class="stage-hint">TAP THE JELLY TO TOGGLE</div>
+        </main>
+      </div>
+
+      <div class="spec-panel">
+        <div class="spec-item"><strong>ON / OFF</strong><span>弹性状态切换</span><small>Elastic Toggle</small></div>
+        <div class="spec-item"><strong>1.42</strong><span>果冻折射率</span><small>Jelly IOR</small></div>
+        <div class="spec-item"><strong>REALTIME</strong><span>实时物理反馈</span><small>Spring Motion</small></div>
+      </div>
+
+      <div class="madeby-line"><span class="line"></span><b>Made by&nbsp;&nbsp;GUANYU LAB</b><span class="line"></span></div>
+    </div>
+  </section>
+
+  <section class="quote-section" id="creative">
+    <h3>在细节里，看见创造力</h3>
+    <p>Find Creativity in the Details</p>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="footer-brand">
+      <div class="brand-logo mini" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M8 31c0-12 10-22 23-22 8 0 15 4 19 10 5 1 8 5 8 10 0 7-6 12-13 12H20C13 41 8 37 8 31Z"/><path d="M16 31c5-2 9-8 16-11 2 4 6 8 12 10 2-3 4-5 8-7"/><path d="M17 35c8-2 14-1 19 2 5 2 10 2 15-1"/></svg>
+      </div>
+      <div class="brand-copy footer-copy"><strong>观屿实验室</strong><span>GUANYU LAB</span></div>
+    </div>
+    <div class="footer-links">Interactive Experiments <span>/</span> guanyu-lab</div>
+  </footer>
+</div>
+<script src="./app.js?v=7.3.0"></script>
+</body>
+</html>

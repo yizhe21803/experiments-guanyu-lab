@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "name": "GUANYU LAB",
+    "nameZh": "观屿实验室"
+  },
+  "experiments": [
+    {
+      "id": "MS-01",
+      "slug": "jelly-motion",
+      "series": "motion-surface",
+      "sequence": 1,
+      "name": "Jelly Motion",
+      "nameZh": "果冻滑块",
+      "version": "1.0.0",
+      "status": "released",
+      "brand": "GUANYU LAB",
+      "entry": "/experiments/motion-surface/ms-01-jelly-motion/",
+      "technology": [
+        "WebGL2",
+        "SDF",
+        "Verlet",
+        "Bezier",
+        "TAA-style temporal accumulation"
+      ],
+      "source": {
+        "type": "adaptation",
+        "upstream": "software-mansion/TypeGPU",
+        "example": "rendering/jelly-slider",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "MS-02",
+      "slug": "jelly-switch",
+      "series": "motion-surface",
+      "sequence": 2,
+      "name": "Jelly Switch",
+      "nameZh": "果冻开关",
+      "version": "1.0.0",
+      "status": "released",
+      "brand": "GUANYU LAB",
+      "entry": "/experiments/motion-surface/ms-02-jelly-switch/",
+      "technology": [
+        "WebGL2",
+        "SDF",
+        "Spring Dynamics",
+        "TAA"
+      ],
+      "source": {
+        "type": "adaptation",
+        "upstream": "software-mansion/TypeGPU",
+        "example": "rendering/jelly-switch",
+        "license": "MIT"
+      }
+    }
+  ]
+}

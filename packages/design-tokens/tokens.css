@@ -1,0 +1,13 @@
+:root {
+  --gy-bg: #f6f5f1;
+  --gy-paper: #ffffff;
+  --gy-cream: #f2efe6;
+  --gy-sage: #8f9b8c;
+  --gy-sage-soft: #dfe4dc;
+  --gy-ink: #223027;
+  --gy-muted: #768078;
+  --gy-border: rgba(45, 62, 49, .10);
+  --gy-radius-card: 24px;
+  --gy-radius-board: 34px;
+  --gy-shadow-soft: 0 24px 70px rgba(45, 56, 47, .08);
+}

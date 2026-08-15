@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "MS-01",
+  "release": "1.0.0",
+  "state": "FROZEN",
+  "hash": "sha256",
+  "files": {
+    "CHANGELOG.md": "c83cb7fe1cbf2c1cbfcb0b5b95245aef2f9fd14d8efafed146be96abf4d9b1af",
+    "README.md": "663d4ad4faa44dd89e34d64a2918c24f9ebd9d74f22845c6fb3a1d69f8866a14",
+    "SOURCE.md": "e95b26f84cb8bac294be679880104b15c8c594d269efa3e89919fb79c8c10cde",
+    "app.js": "0da283f19af069353181dad314e8a9f8ab5edd0155e006b29ad1f85fdd5d3db2",
+    "experiment.json": "3decfda451d3a6f4a3e2f05e086a83ccd908eae70c4f64e094129cbdccfc51f5",
+    "index.html": "42f1638bdb6a41aa74196b25fbb131b3089a4c4251c7f31d975dd2977fe3222e",
+    "package.json": "5da609fc26ab942082940d00e52c1568ff5e5afc76446abd48a79707162c20bf",
+    "reference-track.js": "e3e60b75b6e2593f18622be5ff5acbddc2eb7994c9e381606cccc5fae0fd7560",
+    "server.mjs": "98e64274aa3d3bafb5b70279b83501372fd1cadfc205dbd6982f5a6714f9710e",
+    "start.command": "29d9f324828c23196549cb17c61b3a5c502d125b1e90f0c412b8e5cb328f1de6",
+    "styles.css": "a6007020e867a5b918cb16245aa5dd419b59c5532277e722348d748092ad8127",
+    "workbench.js": "3227dc07b567d7852f7bb5090003a3ad0f6eb4900513c9fa1e8bbf88d11a2f23"
+  }
+}

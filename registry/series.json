@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "id": "motion-surface",
+      "code": "MS",
+      "name": "MOTION SURFACE",
+      "status": "active",
+      "experiments": [
+        "MS-01",
+        "MS-02"
+      ]
+    }
+  ]
+}

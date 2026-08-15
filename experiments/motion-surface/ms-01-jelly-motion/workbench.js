@@ -1,0 +1,1 @@
+(() => { const stage=document.getElementById('stage'); const paletteToggle=document.getElementById('paletteToggle'); const palettePanel=document.getElementById('palettePanel'); stage?.addEventListener('pointerdown',()=>{}, {passive:true}); if(palettePanel&&!paletteToggle){ palettePanel.hidden=false; }})();

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "MS-02",
+  "release": "1.0.0",
+  "state": "FROZEN",
+  "hash": "sha256",
+  "files": {
+    "CHANGELOG.md": "65e38f7564390f1513e4e6fb7464a39eb2a4257d1251cf458653ec7af87d923e",
+    "README.md": "d31edb881d13a12e192a747b8464ae6b11278f810e38ef482591c67fd6479f2d",
+    "SOURCE.md": "98beac8d05012604f16b6eb322f41e811820938001d29cb49bc8739078cb76ef",
+    "app.js": "43e6f316bec228e2fd2597b69acca7e2b095d93c6fb2665d213f3e5d0fe23325",
+    "experiment.json": "b50508cd8877e7f7170691969397278e20d4adf6e19c0717a5cc33eb60a29a38",
+    "index.html": "9f7ec2a74ddca870288ea6ab9999c159ee9f8b7a7acf97f4a027168d7c8006f6",
+    "package.json": "e13a0b42df85615c078b0e2e1d3433f8de8b670362e561e5fef363d832245afd",
+    "server.mjs": "4503586e8bc62049a14676464ed9c463307f3c34ffd89835e803ceb3b08bb44e",
+    "start.command": "24eb3a4e24c8575cc4d1d51ad3377a4f28aade092697db21d2ecec2cea747b8a",
+    "styles.css": "22fd7b31eb889932e92dd2f6ada79239d3acc8c9900cce2d4ed26bdbea3a1c38"
+  }
+}

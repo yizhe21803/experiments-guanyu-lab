@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<title>观屿实验室 · Jelly Motion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Reddit+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css?v=44.1.0" />
+</head>
+<body>
+<div class="poster-page">
+  <div class="bg-wave bg-wave-left" aria-hidden="true"></div>
+  <div class="bg-wave bg-wave-right" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand-lockup">
+      <div class="brand-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M8 31c0-12 10-22 23-22 8 0 15 4 19 10 5 1 8 5 8 10 0 7-6 12-13 12H20C13 41 8 37 8 31Z"/><path d="M16 31c5-2 9-8 16-11 2 4 6 8 12 10 2-3 4-5 8-7"/><path d="M17 35c8-2 14-1 19 2 5 2 10 2 15-1"/></svg>
+      </div>
+      <div class="brand-copy">
+        <strong>观屿实验室</strong>
+        <span>GUANYU LAB</span>
+      </div>
+    </div>
+    <nav class="hero-nav" aria-label="页面导航">
+      <a href="#board">Interactive</a>
+      <span>/</span>
+      <a href="#board">Motion</a>
+      <span>/</span>
+      <a href="#footer">Creative</a>
+    </nav>
+    <div class="exp-chip"><i></i>EXPERIMENT</div>
+  </header>
+
+  <section class="hero-head">
+    <div class="eyebrow-line"><span></span><em>MOTION SURFACE · 01</em><span></span></div>
+    <div class="title-row">
+      <h1>Jelly Motion</h1>
+      <b class="version-chip">v1.0</b>
+    </div>
+    <h2>一块会呼吸的交互表面</h2>
+    <p>Realtime Soft-body Interaction</p>
+  </section>
+
+  <section class="board-shell" id="board">
+    <div class="board-frame">
+      <div class="board-top-meta"><i></i><strong>LIVE</strong><span>Interactive Experiment</span></div>
+
+      <div class="board-side-cards" aria-label="能力亮点">
+        <article class="feature-card">
+          <div class="icon-badge">⌁</div>
+          <strong>实时软体交互</strong>
+          <span>Soft-body Motion</span>
+        </article>
+        <article class="feature-card">
+          <div class="icon-badge">◎</div>
+          <strong>物理回弹模拟</strong>
+          <span>Elastic Response</span>
+        </article>
+        <article class="feature-card">
+          <div class="icon-badge">◌</div>
+          <strong>动态材质表现</strong>
+          <span>Dynamic Material</span>
+        </article>
+      </div>
+
+      <div class="stage-holder">
+        <main id="stage">
+          <canvas id="scene" width="720" height="720"></canvas>
+          <canvas id="overlay" width="720" height="720"></canvas>
+          <div id="percentage" dir="ltr" aria-live="off"><span id="percentageNumber">38</span><span id="percentageSign">%</span></div>
+          <button id="paletteToggle" type="button" aria-label="Color palette" title="Color palette" aria-expanded="true"><span></span></button>
+          <section id="palettePanel" aria-label="Jelly colors">
+            <div class="palette-title">JELLY COLOR</div>
+            <div id="swatches" class="swatches"></div>
+            <label class="custom-color">CUSTOM <input id="customColor" type="color" value="#f47828" /></label>
+            <button id="autoColor" type="button" class="auto-color">AUTO</button>
+          </section>
+          <div id="hud" hidden><b>GUANYU LAB / Jelly Motion</b><span id="hudMode"></span><span id="hudTime"></span><span id="hudValue"></span></div>
+        </main>
+      </div>
+
+
+      <div class="spec-panel">
+        <div class="spec-item">
+          <strong>0–5%</strong>
+          <span>低值自然闭合</span>
+          <small>Smooth Close</small>
+        </div>
+        <div class="spec-item">
+          <strong>30%</strong>
+          <span>稳定形变修复</span>
+          <small>Stable Morphing</small>
+        </div>
+        <div class="spec-item">
+          <strong>∞</strong>
+          <span>实时丝滑拖拽</span>
+          <small>Realtime</small>
+        </div>
+      </div>
+
+      <div class="madeby-line">
+        <span class="line"></span>
+        <b>Made by&nbsp;&nbsp;GUANYU LAB</b>
+        <span class="line"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <h3>在细节里，看见创造力</h3>
+    <p>Find Creativity in the Details</p>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="footer-brand">
+      <div class="brand-logo mini" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M8 31c0-12 10-22 23-22 8 0 15 4 19 10 5 1 8 5 8 10 0 7-6 12-13 12H20C13 41 8 37 8 31Z"/><path d="M16 31c5-2 9-8 16-11 2 4 6 8 12 10 2-3 4-5 8-7"/><path d="M17 35c8-2 14-1 19 2 5 2 10 2 15-1"/></svg>
+      </div>
+      <div class="brand-copy footer-copy">
+        <strong>观屿实验室</strong>
+        <span>GUANYU LAB</span>
+      </div>
+    </div>
+    <div class="footer-links">Interactive Experiments <span>/</span> guanyu-lab</div>
+  </footer>
+</div>
+<script src="./reference-track.js"></script>
+<script src="./app.js?v=44.1.0"></script>
+<script src="./workbench.js?v=44.1.0"></script>
+</body>
+</html>
